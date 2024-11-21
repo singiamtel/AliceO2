@@ -45,7 +45,7 @@
 
 /* Both producer and consumer loops, would commonly be infinite loops, but for
  * the purpose of testing a reasonable NUMBER_OF_MESSAGES is defined. */
-#define NUMBER_OF_MESSAGES 1000000
+#define NUMBER_OF_MESSAGES 1000000000
 
 #define NUMBER_OF_PRODUCER_THREADS 2
 

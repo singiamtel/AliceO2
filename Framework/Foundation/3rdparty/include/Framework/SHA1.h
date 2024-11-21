@@ -25,6 +25,7 @@ A million repetitions of "a"
 /* for uint32_t */
 #include <cstdint>
 
+
 #define SHA_rol(value, bits) (((value) << (bits)) | ((value) >> (32 - (bits))))
 
 /* blk0() and blk() perform the initial expand. */
